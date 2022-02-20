@@ -10,6 +10,7 @@ start to finish and will be able to set her campaign to mirror other successful 
 ## Analysis and Challenges
 
 1. From the figure below we see that in US the most successful campaigns belong to category "Theatre".
-2. <img src = "Resources\Data Report">
+2. <img src = "Resources\Data Report.png">
 
 2. In US the sub-category "PLays" has been most successful.
+3.  <img src = "Resources\Subcategory_analysis.png">
