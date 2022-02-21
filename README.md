@@ -1,5 +1,9 @@
 # kickstarter-analysis
 Performing Analysis on Kickstarter data to uncover trends
+Table of Contents
+-[Overview of Project](##Overview of Project)
+-[Analysis and Challenges](##Analysis and Challenges)
+
 ## Overview of Project
 
 Louise is an upcoming playwright, who wants to start a crowdfunding campaign to help fund her play "Fever". She is estimating a budget of $10,000. 
