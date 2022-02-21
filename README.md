@@ -1,8 +1,10 @@
 # kickstarter-analysis
-Performing Analysis on Kickstarter data to uncover trends
-Table of Contents
+Performing Analysis on Kickstarter data to uncover trends</br>
+
+###Table of Contents
 -[Overview of Project](##Overview of Project)
 -[Analysis and Challenges](##Analysis and Challenges)
+-[Results]
 
 ## Overview of Project
 
