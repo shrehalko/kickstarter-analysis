@@ -26,7 +26,7 @@ Hence we need to analyze the crowdfunding data to see if there are any specific 
 set up her own campaign and set her up for success. Using excel to analyze the current site data will help her gain a greater understanding of campaigns from
 start to finish and will be able to set her campaign to mirror other successful ones in the same category. we will help Louise kickstart her production.
 
-## <a name="Analysisandchallenges"></a>Analysis and Challenges
+## <a name="AnalysisandChallenges"></a>Analysis and Challenges
 
 1. Before starting the analysis, we gazed through the data given. We organized and sorted the data by segregating the category and sub-category from the 
 'Category and Subcategory' column. We filtered our data on "theatre" category and "Plays" subcategory.
