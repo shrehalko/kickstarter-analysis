@@ -43,7 +43,7 @@ start to finish and will be able to set her campaign to mirror other successful 
 From the figure below we see that in US the most successful campaigns belong to the "Theatre" category. 57% of Theatre campaigns were 
 successful in "US". "Music" being the second most successful campaign.
 
-<img src = "Resources\Data Report.png">
+<img src = "Resources\Data Report.png" width ="30%" align="center" alt="Parent Category Outcomes"> 
 
 ### <a name="AnalysisSubCategory"></a>Analysis based on Sub-Category
 In US the most successful sub-category in theater is "Plays", as shown in the figure below. we infer that 61% of the plays were successful in US.
