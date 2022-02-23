@@ -61,16 +61,16 @@ The winter season, that is the months of november and december,may be the worst 
  
  ### <a name="AnalysisGoals"></a> Analysis of Outcomes Based on Goals
  We did an analysis on the number of campaigns that were successful based on their goal amount. As shown in the figure below, the most successful 
- campaigns had a goal less than 5,000. About of 73% campaigns were successful with a goal amount ranging from $1000 to $4999. The higher the amount goal, 
+ campaigns had a goal less than $5,000. About of 73% campaigns were successful with a goal amount ranging from $1000 to $4999. The higher the amount goal, 
  the less campaigns were successful. 
  Since Louise has campaign goal of about $10,000, it seems that it would be difficult to get the number of backers to successfully fund her play.
  
 <p align="center"> <img src = "Resources\Outcomes_vs_Goals.png" width ="55%" align="center"> </p>
 
 ### <a name="StatisticalAnalysis"></a>Statistical Analysis of "Plays" subcategory in US
-We did a statistical analysis by filtering data for "Plays" subcategory in US. From the below snapshot we determine that the failed kickstarter campaingns have much higher 
+We did a statistical analysis by filtering data for "Plays" subcategory in US. From the below snapshot we determine that the failed kickstarter campaigns have much higher 
 fund raising goals (mean=$10,554) than the successful kickstarter campaigns(mean = $5,049).
-We also see that mean and median pledged amounts of failed campaigns are much lower than the succesful campaingns. Hence, we infer that there might be other reasons for the 
+We also see that mean and median pledged amounts of failed campaigns are much lower than the succesful campaigns. Hence, we infer that there might be other reasons for the 
 Kickstarter cmpaigns to fail, other than large funding.
 
 <p align="center"> <img src = "Resources\Statistical Analysis.png" width ="50%" align="center"> </p>
