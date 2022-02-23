@@ -49,7 +49,7 @@ successful in "US". "Music" being the second most successful campaign.
 ### <a name="AnalysisSubCategory"></a>Analysis based on Sub-Category
 In US the most successful sub-category in theater is "Plays", as shown in the figure below. we infer that 61% of the plays were successful in US.
  
-<p align="center"> <img src = "Resources\Subcategory_analysis.png  width ="50%" align="center""> </p>
+<p align="center"> <img src = "Resources\Subcategory_analysis.png"  width ="50%" align="center"> </p>
 
 ### <a name="AnalysisLaunchDate"></a>Analysis based on Launch Date
 From the figure below we infer that the most successful "Theatre" campaigns were launched in the month of May and it tapers 
@@ -98,7 +98,7 @@ Kickstarter cmpaigns to fail, other than large funding.
  
  ## <a name="Othergraphs"></a> Other possible tables or graphs that we could create
   I think that we could create a chart to analyze the duartion of each campaign , by subtracting the end date and start date. By analyzing the duration of the plays, we could   
-  determine if the duration is related to its success or failure. 
+  determine if the duration is related to its success or failure.<\br> 
   Another chart that we could create is analyzing the successful plays in other countries. This would probably help Louis understand the various circumstances in which the play   was successful and try tp recreate them in US for her play. 
 
 ## <a name="summary"></a>Summary
