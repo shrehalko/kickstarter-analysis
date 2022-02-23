@@ -6,7 +6,7 @@ By Analyzing this data we will gain insights as to how the various campaigns far
 - [Overview of Project](#OverviewProject)
   * [Purpose](#purpose)
   * [Background](#Background)
-- [Analysis and Challenges](#AnalysisandChallenges)
+- [Initial Analysis](#AnalysisandChallenges)
   * [Analysis based on Category](#AnalysisCategory)
   * [Analysis based on Sub-Category](#AnalysisSubcategory)
   * [Analysis based on Launch Date](#Analysislaunchdate)
@@ -27,7 +27,7 @@ Hence we need to analyze the crowdfunding data to see if there are any specific 
 set up her own campaign and set her up for success. Using excel to analyze the current site data will help her gain a greater understanding of campaigns from
 start to finish and will be able to set her campaign to mirror other successful ones in the same category. we will help Louise kickstart her production.
 
-## <a name="AnalysisandChallenges"></a>Analysis and Challenges
+## <a name="AnalysisandChallenges"></a>Initial Analysis 
 
 1. Before starting the analysis, we gazed through the data given. We organized and sorted the data by segregating the category and sub-category from the 
 'Category and Subcategory' column. We filtered our data on "theatre" category and "Plays" subcategory.
@@ -49,7 +49,7 @@ successful in "US". "Music" being the second most successful campaign.
 ### <a name="AnalysisSubCategory"></a>Analysis based on Sub-Category
 In US the most successful sub-category in theater is "Plays", as shown in the figure below. we infer that 61% of the plays were successful in US.
  
-<p align="center"> <img src = "Resources\Subcategory_analysis.png"> </p>
+<p align="center"> <img src = "Resources\Subcategory_analysis.png  width ="50%" align="center""> </p>
 
 ### <a name="AnalysisLaunchDate"></a>Analysis based on Launch Date
 From the figure below we infer that the most successful "Theatre" campaigns were launched in the month of May and it tapers 
