@@ -49,7 +49,7 @@ successful in "US". "Music" being the second most successful campaign.
 ### <a name="AnalysisSubCategory"></a>Analysis based on Sub-Category
 In US the most successful sub-category in theater is "Plays", as shown in the figure below. we infer that 61% of the plays were successful in US.
  
-<p align="center"> <img src = "Resources\Subcategory_analysis.png" width ="60%" align="center"> </p>
+<p align="center"> <img src = "Resources\Subcategory_analysis.png"> </p>
 
 ### <a name="AnalysisLaunchDate"></a>Analysis based on Launch Date
 From the figure below we infer that the most successful "Theatre" campaigns were launched in the month of May and it tapers 
