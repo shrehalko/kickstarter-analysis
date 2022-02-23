@@ -8,7 +8,7 @@ By Analyzing this data we will gain insights as to how the various campaigns far
   * [Background](#Background)
 - [Analysis and Challenges](#AnalysisandChallenges)
   * [Analysis based on Category](#AnalysisCategory)
-  * [Analysis based on Sub-Category](#AnallysisSubcategory)
+  * [Analysis based on Sub-Category](#AnalysisSubcategory)
   * [Analysis based on Launch Date](#Analysislaunchdate)
   * [Analysis of Outcomes Based on Goals](#AnalysisGoals)
   * [Statistical Analysis of "Plays" subcategory in US](#StatisticalAnalysis)
