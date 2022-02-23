@@ -15,6 +15,7 @@ By Analyzing this data we will gain insights as to how the various campaigns far
 - [Challenges and Difficulties Encountered](#Challenges)
 - [Results](#results)
 - [Limitations of the dataset](#Limitations)
+- [Other possible tables or graphs that we could create](#Othergraphs)
 - [Summary](#summary)
 - [References](#references)
 
@@ -49,7 +50,6 @@ successful in "US". "Music" being the second most successful campaign.
 In US the most successful sub-category in theater is "Plays", as shown in the figure below. we infer that 61% of the plays were successful in US.
  
 <p align="center"> <img src = "Resources\Subcategory_analysis.png" width ="55%" align="center"> </p>
-
 ### <a name="AnalysisLaunchDate"></a>Analysis based on Launch Date
 From the figure below we infer that the most successful "Theatre" campaigns were launched in the month of May and it tapers 
 off by the end of the year. A total of 319 campaigns were launched in the month of May and June. Out of which 211 campaigns were successful, 
@@ -95,10 +95,12 @@ Kickstarter cmpaigns to fail, other than large funding.
 2. Loise would also like to know the other factors that make a play successful. Such as, the targeted audience who would love to come and watch plays. She may also like to know the best way to advertise her campaign which would make it successful. Such information is missing from the dataset to give Louise a detailed report.
 3. The data ranges from the year 2009 to 2018 only. Louise would be more interested in the latest data from the previous years. 
  
-- What are some other possible tables and/or graphs that we could create?
+ ## <a name="Othergraphs"></a> Other possible tables or graphs that we could create
+  I think that we could create a chart to analyze the duartion of each campaign , by subtracting the end date and start date. Analyzing the duration of the plays, we could infer if the duation is related to its sucess or failure. 
+  Another chart that we could create is analyzing the successful plays in other countries. This would probably help Louis understand the various circumstances in which the play was successful and try tp recreate them in US for her play. 
 
 ## <a name="summary"></a>Summary
 
 ## <a name="references"></a> References
-[1] [Stock Analysis Excel File]( )
-[2]
+[1] [Kickstarter Analysis Excel File](Kickstarter.xlsx)
+[2] [Challenge Kickstarter Analysis Excel File](Kickstarter_Challenge.xlsx)
