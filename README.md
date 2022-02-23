@@ -43,12 +43,12 @@ start to finish and will be able to set her campaign to mirror other successful 
 From the figure below we see that in US the most successful campaigns belong to the "Theatre" category. 57% of Theatre campaigns were 
 successful in "US". "Music" being the second most successful campaign.
 
-<img src = "Resources\Data Report.png" width ="45%" align="center" alt="Parent Category Outcomes"> 
+<p align="center"> <img src = "Resources\Data Report.png" width ="45%"> </p> 
 
 ### <a name="AnalysisSubCategory"></a>Analysis based on Sub-Category
 In US the most successful sub-category in theater is "Plays", as shown in the figure below. we infer that 61% of the plays were successful in US.
  
-<img src = "Resources\Subcategory_analysis.png">
+<p align="center"> <img src = "Resources\Subcategory_analysis.png" width ="45%" align="center"> </p>
 
 ### <a name="AnalysisLaunchDate"></a>Analysis based on Launch Date
 From the figure below we infer that the most successful "Theatre" campaigns were launched in the month of May and it tapers 
@@ -56,8 +56,7 @@ off by the end of the year. A total of 319 campaigns were launched in the month 
 with a success rate of 66%. 
 The winter season, that is the months of november and december,may be the worst time to launch the campaign with a success rate of only 55%.  
 
-
-<img src = "Resources\Theater_Outcomes_vs_Launch.png">
+<p align="center"> <img src = "Resources\Theater_Outcomes_vs_Launch.png" width ="45%" align="center"> </p>
  
  ### <a name="AnalysisGoals"></a> Analysis of Outcomes Based on Goals
  We did an analysis on the number of campaigns that were successful based on their goal amount. As shown in the figure below, the most successful 
@@ -65,7 +64,7 @@ The winter season, that is the months of november and december,may be the worst 
  the less campaigns were successful. 
  Since Louise has campaign goal of about $10,000, it seems that it would be difficult to get the number of backers to successfully fund her play.
  
- <img src = "Resources\Outcomes_vs_Goals.png">
+<p align="center"> <img src = "Resources\Outcomes_vs_Goals.png" width ="45%" align="center"> </p>
 
 ### <a name="StatisticalAnalysis"></a>Statistical Analysis of "Plays" subcategory in US
 We did a statistical analysis by filtering data for "Plays" subcategory in US. From the below snapshot we determine that the failed kickstarter campaingns have much higher 
@@ -73,7 +72,7 @@ fund raising goals (mean=$10,554) than the successful kickstarter campaigns(mean
 We also see that mean and median pledged amounts of failed campaigns are much lower than the succesful campaingns. Hence, we infer that there might be other reasons for the 
 Kickstarter cmpaigns to fail, other than large funding.
 
-<img src = "Resources\Statistical Analysis.png">
+<p align="center"> <img src = "Resources\Statistical Analysis.png" width ="45%" align="center"> </p>
 
 ## <a name="Challenges"></a>Challenges and Difficulties Encountered
 
