@@ -1,6 +1,5 @@
 # kickstarter-analysis
-Performing Analysis on Kickstarter data to uncover trends. This data has been collected from the past crowdfunding projects from 2009 to 2017, in various categories as theatre,food,music etc.</br>
-By Analyzing this data we will gain insights as to how the various campaigns fared in relation to their funding goals, launch dates etc.  
+Performing Analysis on Kickstarter data to uncover trends. 
 
 ## Table of Contents
 - [Overview of Project](#OverviewProject)
@@ -8,8 +7,8 @@ By Analyzing this data we will gain insights as to how the various campaigns far
   * [Background](#Background)
 - [Initial Analysis](#AnalysisandChallenges)
   * [Analysis based on Category](#AnalysisCategory)
-  * [Analysis based on Sub-Category](#AnalysisSubcategory)
-  * [Analysis based on Launch Date](#Analysislaunchdate)
+  * [Analysis based on Sub-Category](#AnalysisSubCategory)
+  * [Analysis based on Launch Date](#AnalysisLaunchDate)
   * [Analysis of Outcomes Based on Goals](#AnalysisGoals)
   * [Statistical Analysis of "Plays" subcategory in US](#StatisticalAnalysis)
 - [Challenges and Difficulties Encountered](#Challenges)
@@ -21,16 +20,19 @@ By Analyzing this data we will gain insights as to how the various campaigns far
 
 
 ## <a name="OverviewProject"></a>Overview of Project
-
+### <a name="Background"></a>Background
 Louise is an upcoming playwright, who wants to start a crowdfunding campaign to help fund her play "Fever". She is estimating a budget of $10,000. 
-Hence we need to analyze the crowdfunding data to see if there are any specific factors that make the project campaign sucessful. we will help Louise to 
+Hence we need to analyze the crowdfunding data to see if there are any specific factors that make the project campaign sucessful. We will help Louise to 
 set up her own campaign and set her up for success. Using excel to analyze the current site data will help her gain a greater understanding of campaigns from
-start to finish and will be able to set her campaign to mirror other successful ones in the same category. we will help Louise kickstart her production.
+start to finish and will be able to set her campaign to mirror other successful ones in the same category. 
+
+### <a name="Purpose"></a>Purpose
+To help Louise, I am performing an analysis on the Kickstarter crowdfunding campaigns. This data has been collected from the past crowdfunding projects from 2009 to 2017, in various categories as theater,food,music etc. By Analyzing this data we will gain insights as to how the various campaigns fared in relation to their funding goals, launch dates etc. For this purpose I am using **MS Excel** and will build my analysis using **pivot charts and tables, conditional formatting, VLOOKUP, CountIf** and other excel formulas.
 
 ## <a name="AnalysisandChallenges"></a>Initial Analysis 
 
 1. Before starting the analysis, we gazed through the data given. We organized and sorted the data by segregating the category and sub-category from the 
-'Category and Subcategory' column. We filtered our data on "theatre" category and "Plays" subcategory.
+'Category and Subcategory' column. We filtered our data on "theater" category and "Plays" subcategory.
 2. We changed the "Launched Date" and the "deadline" columns from the "Unix time stamp" format 'to a standard date format. 
 3. We did this so as to analyze the duration of the campaigns and understand if the success of the camapign is dependent on when it was launched.
 4. With the help of bar charts we analyzed in which months were the campaigns most successful. This will help Louise understand the best time to launch her play. 
@@ -41,23 +43,23 @@ start to finish and will be able to set her campaign to mirror other successful 
    
 
 ### <a name="AnalysisCategory"></a>Analysis based on Category
-From the figure below we see that in US the most successful campaigns belong to the "Theatre" category. 57% of Theatre campaigns were 
-successful in "US". "Music" being the second most successful campaign.
+From the figure below we see that in US the most successful campaigns belong to the "Theater" category. 57% of Theater campaigns were 
+successful in "US". "Music" being the second most successful campaign. Theater seems to be the most famous category in US. **Since Louis is planning a theater campaign this seems to be a good news for her.**
 
 <p align="center"> <img src = "Resources\Data Report.png" width ="45%"> </p> 
 
 ### <a name="AnalysisSubCategory"></a>Analysis based on Sub-Category
-In US the most successful sub-category in theater is "Plays", as shown in the figure below. we infer that 61% of the plays were successful in US. 
+In US the most successful sub-category in theater is "Plays", as shown in the figure below. We infer that 61% of the plays were successful in US (412 successful plays, total plays = 671). Looking at this data Louis can be more confident about launching her play "Fever". But, we need to further build our analysis and check for other factors as well.
 
-<p align="center"> <img src = "Resources\Subcategory_analysis.png"  width ="55%" align="center"> </p>
+ <p align="center"> <img src = "Resources\Subcategory_analysis.png" width = "55%" > </p>
 
 ### <a name="AnalysisLaunchDate"></a>Analysis based on Launch Date
-From the figure below we infer that the most successful "Theatre" campaigns were launched in the month of May and it tapers 
+From the figure below we infer that the most successful "Theater" campaigns were launched in the month of **May and June** and it tapers 
 off by the end of the year. A total of 319 campaigns were launched in the month of May and June. Out of which 211 campaigns were successful, 
 with a success rate of 66%. 
-The winter season, that is the months of november and december,may be the worst time to launch the campaign with a success rate of only 55%.  
+The winter season, that is the months of **November and December**,may be the worst time to launch the campaign with a success rate of only 55%.  
 
-<p align="center"> <img src = "Resources\Theater_Outcomes_vs_Launch.png" width ="55%" align="center"> </p>
+ <p align="center"> <img src = "Resources\Theater_Outcomes_vs_Launch.png" width ="55%" align="center"> </p>
  
  ### <a name="AnalysisGoals"></a> Analysis of Outcomes Based on Goals
  We did an analysis on the number of campaigns that were successful based on their goal amount. As shown in the figure below, the most successful 
@@ -68,10 +70,11 @@ The winter season, that is the months of november and december,may be the worst 
 <p align="center"> <img src = "Resources\Outcomes_vs_Goals.png" width ="55%" align="center"> </p>
 
 ### <a name="StatisticalAnalysis"></a>Statistical Analysis of "Plays" subcategory in US
-We did a statistical analysis by filtering data for "Plays" subcategory in US. From the below snapshot we determine that the failed kickstarter campaigns have much higher 
-fund raising goals (mean=$10,554) than the successful kickstarter campaigns(mean = $5,049).
-We also see that mean and median pledged amounts of failed campaigns are much lower than the succesful campaigns. Hence, we infer that there might be other reasons for the 
-Kickstarter cmpaigns to fail, other than large funding.
+We did a statistical analysis by filtering data for "Plays" subcategory in US. 
+1. From the below snapshot we determine that the failed kickstarter campaigns have much higher fund raising goals (mean=$10,554) than the successful kickstarter campaigns(mean = $5,049).
+2. The huge difference between the mean($10,554) and medin ($5,000) in failed goals, indicates that the distribution is highly skewed to the right. There are some extreme values (outliers) in the dataset that are pulling the mean higher than the median.
+3. We also see that mean and median pledged amounts of failed campaigns are much lower than the succesful campaigns. Hence, we infer that there might be other reasons for the 
+Kickstarter campaigns to fail, other than large funding.
 
 <p align="center"> <img src = "Resources\Statistical Analysis.png" width ="50%" align="center"> </p>
 
@@ -85,20 +88,20 @@ Kickstarter cmpaigns to fail, other than large funding.
 5. Finally, formatting this "Readme" file was a bit challenging too. With some research, I was able to understand the process of embedding images and files and hyperlinks in my file.
 
 ## <a name="Results"></a>Results
-1. In US the most successful campaigns belong to the "Theatre" category and "plays" sub-category. This seems like a good news for Louise.
+1. In US the most successful campaigns belong to the "Theater" category and "plays" sub-category. This seems like a good news for Louise.
 2. May or June might be the best time to launch her play "Fever". Winter months being the worst.
 3. The most successful campaigns in US had a goal ranging from $1000 to $4999. Since Louise has a funding goal of $10,000 , she might face some difficulties to get the 
    backers for her play.
 
 ## <a name="Limitations"></a>Limitations of this dataset
 
-1. From the statistcal analysis we inferred that the mean and median pledged amounts of failed campaigns are much lower than the succesful campaigns. Hence large goal amount was not the only reason for unsuccessful campaigns. There were other factors too that contributed to the failure of the campaigns. But with this dataset, we are unable to identify those other factors. Hence a more detailed data would be required.
-2. Loise would also like to know the other factors that make a play successful. Such as, the targeted audience who would love to come and watch plays. She may also like to know the best way to advertise her campaign which would make it successful. Such information is missing from the dataset to give Louise a detailed report.
+1. From the statistcal analysis we inferred that the mean and median pledged amounts of failed campaigns are much lower than the successful campaigns. Hence large goal amount was not the only reason for unsuccessful campaigns. There were other factors too that contributed to the failure of the campaigns. But with this dataset, we are unable to identify those other factors. Hence a more detailed data would be required.
+2. Louise would also like to know the other factors that make a play successful. Such as, the targeted audience who would love to come and watch plays. She may also like to know the best way to advertise her campaign which would make it successful. Such information is missing from the dataset to give Louise a detailed report.
 3. The data ranges from the year 2009 to 2018 only. Louise would be more interested in the latest data from the previous years. 
  
  ## <a name="Othergraphs"></a> Other possible tables or graphs that we could create
   1. I think that we could create a chart to analyze the duartion of each campaign , by subtracting the end date and start date. By analyzing the duration of the plays, we could determine if the duration is related to its success or failure.</n> 
-  2. Another chart that we could create is analyzing the successful plays in other countries. This would probably help Louis understand the various circumstances in which the play was successful and try tp recreate them in US for her play. 
+  2. Another chart that we could create is analyzing the successful plays in other countries. This would probably help Louis understand the various circumstances in which the play was successful and try to recreate those in US for her play. 
 
 ## <a name="summary"></a>Summary
 
