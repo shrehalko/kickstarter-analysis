@@ -26,7 +26,7 @@ set up her own campaign and set her up for success. Using excel to analyze the c
 start to finish and will be able to set her campaign to mirror other successful ones in the same category. 
 
 ### <a name="Purpose"></a>Purpose
-To help Louise, I am performing an analysis on the Kickstarter crowdfunding campaigns. This data has been collected from the past crowdfunding projects from 2009 to 2017, in various categories as theater,food,music etc. By Analyzing this data we will gain insights as to how the various campaigns fared in relation to their funding goals, launch dates etc. For this purpose I am using **MS Excel** and will build my analysis using **pivot charts and tables, conditional formatting, VLOOKUP, CountIf** and other excel formulas.
+To help Louise, I am performing an analysis on the **Kickstarter crowdfunding campaigns**. This data has been collected from the past crowdfunding projects from **2009 to 2017**, in various categories as theater,food,music etc. By Analyzing this data we will gain insights as to how the various campaigns fared in relation to their funding goals, launch dates etc. For this purpose I am using **MS Excel** and will build my analysis using **pivot charts and tables, conditional formatting, VLOOKUP, CountIFs** and other excel formulas.
 
 ## <a name="AnalysisandChallenges"></a>Initial Analysis 
 
@@ -48,7 +48,7 @@ successful in "US". "Music" being the second most successful campaign. Theater s
 <p align="center"> <img src = "Resources\Data Report.png" width ="45%"> </p> 
 
 ### <a name="AnalysisSubCategory"></a>Analysis based on Sub-Category
-In US the most successful sub-category in theater is "Plays", as shown in the figure below. We infer that 61% of the plays were successful in US (412 successful plays, total plays = 671). Looking at this data Louis can be more confident about launching her play "Fever". But, we need to further build our analysis and check for other factors as well.
+In US the most successful sub-category in theater is "Plays", as shown in the figure below. We infer that 61% of the plays were successful in US (412 successful plays, total plays = 671). **Looking at this data Louis can be more confident about launching her play "Fever".** But, we need to further build our analysis and check for other factors as well.
 
  <p align="center"> <img src = "Resources\Subcategory_analysis.png" width = "55%" > </p>
 
@@ -64,7 +64,7 @@ The winter season, that is the months of **November and December**,may be the wo
  We did an analysis on the number of campaigns that were successful based on their goal amount. As shown in the figure below, the most successful 
  campaigns had a goal less than $5,000. About of 73% campaigns were successful with a goal amount ranging from $1000 to $4999. The higher the amount goal, 
  the less campaigns were successful. 
- Since Louise has campaign goal of about $10,000, it seems that it would be difficult to get the number of backers to successfully fund her play.
+ Since **Louise has campaign goal of about $10,000, it seems that it would be difficult to get the number of backers to successfully fund her play.**
  
 <p align="center"> <img src = "Resources\Outcomes_vs_Goals.png" width ="55%" align="center"> </p>
 
