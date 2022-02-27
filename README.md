@@ -3,8 +3,8 @@ Performing Analysis on Kickstarter data to uncover trends.
 
 ## Table of Contents
 - [Overview of Project](#OverviewProject)
-  * [Purpose](#purpose)
   * [Background](#Background)
+  * [Purpose](#purpose)
 - [Initial Analysis](#AnalysisandChallenges)
   * [Analysis based on Category](#AnalysisCategory)
   * [Analysis based on Sub-Category](#AnalysisSubCategory)
@@ -15,7 +15,6 @@ Performing Analysis on Kickstarter data to uncover trends.
 - [Results](#results)
 - [Limitations of the dataset](#Limitations)
 - [Other possible tables or graphs that we could create](#Othergraphs)
-- [Summary](#summary)
 - [References](#references)
 
 
@@ -102,8 +101,6 @@ Kickstarter campaigns to fail, other than large funding.
  ## <a name="Othergraphs"></a> Other possible tables or graphs that we could create
   1. I think that we could create a chart to analyze the duartion of each campaign , by subtracting the end date and start date. By analyzing the duration of the plays, we could determine if the duration is related to its success or failure.</n> 
   2. Another chart that we could create is analyzing the successful plays in other countries. This would probably help Louis understand the various circumstances in which the play was successful and try to recreate those in US for her play. 
-
-## <a name="summary"></a>Summary
 
 ## <a name="references"></a> References
 [1] [Kickstarter Analysis Excel File](Kickstarter.xlsx)
